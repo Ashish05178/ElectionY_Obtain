@@ -8,10 +8,10 @@ import pandas as pd
 import numpy as np 
 import sys
 
-consumerKey = 'Qx2JXt5CYc6g0TjkHT6m9N3lC'
-consumerSecret = 'BGQzwaK2gKttQ4XZ87rqCvndWPd4HOMXkLJiJvPy0UpdKJPCht'
-accessToken = '990835552642654208-QmyK1FPAhhyMJY40X9wiGvOfP5H9udX'
-accessTokenSecret = 'acoHSwTwMXakTpyExZtookNWUMGIAhVRM3ZVNt9AqCZKx'
+consumerKey = ''
+consumerSecret = ''
+accessToken = ''
+accessTokenSecret = ''
  
 auth = OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
