@@ -1,3 +1,7 @@
+#By using This script User can get the latest tweets of a specific account and store them into a csv file. 
+# By regular using this script user can store the tweets on regular bases without changing anything.
+#In this file we compare the year, month , day, hour and min of a new tweet with already stored tweets so we don't store same tweet again.
+
 import pandas as pd  
 
 import tweepy
@@ -9,23 +13,6 @@ import pathlib
 import credentials
 
 
-# consumer_key = credentials.consumer_key
-
-# consumer_secret = credentials.consumer_secret
-
-# access_key = credentials.access_key
-
-# access_secret = credentials.access_secret
-
-
-
-# auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-
-# auth.set_access_token(access_key, access_secret)
-
-# api = tweepy.API(auth)
-
-# path = pathlib.Path('@ElectionY_tweets.csv')
 
 
 def newtweets(screenname):
