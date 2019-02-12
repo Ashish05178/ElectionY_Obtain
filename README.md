@@ -1,9 +1,14 @@
 ![Python 3.5](https://img.shields.io/badge/python-3.5.6-blue.svg)
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 
-# ElectionY_Process 
+# ElectionY_Obatin
 ### Built by Samarth Negi and Ashish Sonakiya 
 Data processing half for [Election Yoda](https://twitter.com/ElectionY) , a twitter bot for automated analysis of tweets during the Indian Election 2019 to generate consesus and find patterns .
+
+In the ElectionY_obatin repo you will find the python script which we use for getting tweets from the tweeter.
+In the ElectionY_Process repo you will find the python script which we will use to analyse the tweets. 
+
+
 
 Contains modules for NLP and text analysis . Takes data from a pandas database created using [this](https://github.com/n-s405/electionY_obtain).
 
